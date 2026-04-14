@@ -57,3 +57,18 @@ En este laboratorio entendí cómo separar la red real de mi equipo y la red vir
 
 ## Evidencias
 Las capturas de este laboratorio se encuentran en la carpeta `Capturas`.
+## Evidencias destacadas
+- Configuración de carpeta local para VMs fuera de OneDrive.
+- Identificación del adaptador Host-Only de VirtualBox.
+- Creación de la máquina virtual `VM-Prueba-Red`.
+- Comparación de modos de red: NAT, Adaptador puente y Host-only.
+- Validación de red en Windows con `hostname`, `ipconfig`, `ipconfig /all`, `ping` y `nslookup`.
+- Identificación de la red real Wi-Fi y la red virtual Host-Only.
+
+## Lecciones aprendidas
+- VirtualBox permite crear laboratorios sin afectar directamente el sistema operativo principal.
+- NAT, Bridge y Host-only tienen usos distintos según el tipo de prueba o laboratorio.
+- La red real y la red virtual deben identificarse correctamente para evitar confusiones.
+- `ping` por IP y `ping` por nombre no validan exactamente lo mismo.
+- `nslookup` ayuda a comprobar resolución DNS.
+- La documentación técnica y las evidencias hacen que un laboratorio tenga valor para portafolio.
